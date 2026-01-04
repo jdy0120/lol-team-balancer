@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+**/node_modules
+.pnpm-store
+
+# Build outputs
+.next
+**/.next
+dist
+**/dist
+build
+**/build
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env*.local
+*.log
+
+# Testing
+coverage
+.nyc_output
+**/coverage
+
+# Misc
+README.md
+*.md
